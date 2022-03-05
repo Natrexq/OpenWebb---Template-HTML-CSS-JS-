@@ -4,7 +4,56 @@
 
 
 /*DIV: */
+    *{
+        list-style-type: none;
+    }
+    body{
+        
+        width: 100%;
+        height: 900px;
+        float: left;
+        margin: 0;
+        
+    }
+    div.start{
+        padding-top: 10%;
+        width: 100%;
+        height: 45em;
+        float: left;
+        background-image: linear-gradient(#ff8c08,#ffc837);
+        margin: 0;
+    }
+    div.ix_menubox{
+        position: fixed;
+        float: right;
+        right: 0;
+        width: 30%;
+        height: 10%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0px 0px 00px 50px;
+        -webkit-border-radius: 0px 0px 00px 50px;
+        -moz-border-radius: 0px 0px 00px 50px;
+        -ms-border-radius: 0px 0px 00px 50px;
+        -o-border-radius: 0px 0px 00px 50px;
+}
+    ul.menu{
+        width: 100%;
+        margin: 0;
+        
+        background-color: none;
+        float: right;
 
+    }
+    li.menu{
+        width: 30%;
+        
+        
+        background-color: none;
+        font-size: 100%;
+        float: right;
+        margin-right:1.5%;
+     
+}
 
 
 
