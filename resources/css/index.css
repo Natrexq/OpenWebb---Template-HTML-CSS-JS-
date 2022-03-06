@@ -46,10 +46,11 @@ h1.intro{
 
 }
 h3.h3menu{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 1.2em;
+    
     text-align: center;
 }
 
@@ -68,6 +69,7 @@ li.li_menu{
     width: 30%;
     height: 100%;
     float: right;
+    
     
 }
 button.btmenu{
@@ -90,3 +92,11 @@ button.btmenu{
 }
 
 /* OCHER */
+hr.hrintro{
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+
+    width: 20%;
+    color: white;
+    min-width: 12em;
+}
