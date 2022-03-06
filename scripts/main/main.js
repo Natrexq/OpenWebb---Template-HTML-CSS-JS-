@@ -25,3 +25,9 @@ function Load(status){
 
 
 }
+function Go(){
+
+    const webbgost = document.getElementById('').style;
+
+
+}
