@@ -1,8 +1,11 @@
-function Main(){
+function Load(){
 
-    var webb;
+    const body = document.getElementById('body').style;
+    
+    body.animationName = "load";
+    body.animationDuration = "1000ms";
 
-
+    
 
 
 }
