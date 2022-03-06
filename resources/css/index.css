@@ -3,10 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Manrope:wght@500&family=Syne&display=swap');
 
 
+
+/* ANIMATIONS */
+
+@keyframes load {
+    0% {opacity: 0%;};
+    100% {opacity: 100%;};    
+}
+
+
+
+
 /*DIV: */
     
     body{
-        
+        background-color: #100e20;
         width: 100%;
         height: 110em;
         float: left;
@@ -39,10 +50,56 @@
         background-image: linear-gradient(to top, #020202, #262635);
     }
     div.end{
+        border-top: 5px solid rgb(19, 19, 19);
         float: left;
         width: 100%;
-        height: 20em;
+        height: 29.5em;
         background-color: #000000;
+    }
+    div.end_lfbox{
+        
+        float: left;
+        width: 35%;
+        height: 80%;
+        margin-left:1%;
+        min-height: 15em;
+        min-width: 15em;
+        background-color: none;
+    }
+    div.end_botbox{
+        float: left;
+        width: 100%;
+        height: 18%;
+        background-color: #000000;
+    }
+    h3.h3endb{
+        float: left;
+        padding-top: 20%;
+        margin-left: 5%;
+        font-size: 100%;
+        font-size: 100%;
+        color: rgb(201, 201, 3);
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
+    }
+    h3.h3ends{
+        float: left;
+        padding-top: 20%;
+        font-size: 100%;
+        margin-left: 1%;
+        color: rgb(255, 255, 0);
+        font-family: 'Manrope', sans-serif;
+        font-weight: normal;
+    }
+    h3.h3endres{
+        float: left;
+        
+        margin-left: 1%;
+        margin-top: 2%;
+        font-size: 100%;
+        color: rgb(255, 255, 0);
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
     }
  
 
