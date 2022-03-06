@@ -27,15 +27,11 @@ function Load(status){
 }
 function Go(){
 
-    const webbgo = document.getElementById('webb');
-    const webbgost = webbgo.style;
+    setTimeout(function () {
+        location.href = "/web/webb.html";      
+    }, 500);
 
-    
-    
-        setTimeout(function () {
-
-            location.href = "/webb.html"        
-        }, 2000);    
+  
 
 
 }
