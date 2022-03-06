@@ -4,9 +4,7 @@
 
 
 /*DIV: */
-    *{
-        list-style-type: none;
-    }
+    
     body{
         
         width: 100%;
@@ -16,72 +14,79 @@
         
     }
     div.start{
-        padding-top: 10%;
+        
         width: 100%;
         height: 45em;
         float: left;
-        background-image: linear-gradient(#ff8c08,#ffc837);
+        background-image: linear-gradient(to bottom, #100e20, #262635);
         margin: 0;
     }
-    div.ix_menubox{
-        position: fixed;
-        float: right;
-        right: 0;
-        width: 30%;
+    #menubox{
+        margin-top: 0.2%;
+        width: 25em;
         height: 10%;
-        background-color: rgb(0, 0, 0);
-        border-radius: 0px 0px 00px 50px;
-        -webkit-border-radius: 0px 0px 00px 50px;
-        -moz-border-radius: 0px 0px 00px 50px;
-        -ms-border-radius: 0px 0px 00px 50px;
-        -o-border-radius: 0px 0px 00px 50px;
-}
-    ul.menu{
-        width: 100%;
-        margin: 0;
-        
-        background-color: none;
         float: right;
-
+        background-color: none;
     }
-    li.menu{
-        width: 30%;
-        
-        
-        background-color: none;
-        font-size: 100%;
-        float: right;
-        margin-right:1.5%;
-     
-}
 
+    #intro{
+        margin-top: 11em;
+    }
+ 
 
 
 /*TEXT: */
 
 h1.intro{
-    font-family: 'Manrope', sans-serif;
-    font-size: 220%;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 400%;
+    font-weight: normal;
     color: #FFFFFF;
     text-align: center;
 
 }
 h3.h3menu{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 120%;
     text-align: center;
 }
-h2.intro{
 
-}
 
 
 /* BUTTONS*/
-button.media{
+ul.ul_menu{
+    
+    width: 90%;
+    height: 100%;
+    margin-top: 0;
+    list-style-type: none;
 
+}
+li.li_menu{
+    width: 30%;
+    height: 100%;
+    float: right;
+    
+}
+button.btmenu{
+    margin-top: 3%;
+    font-size: 100%;
+    background-color: #100e20;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    height: 90%;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -ms-border-radius: 15px 15px 15px 15px;
+    -o-border-radius: 15px 15px 15px 15px;
 }
 
 /* OCHER */
