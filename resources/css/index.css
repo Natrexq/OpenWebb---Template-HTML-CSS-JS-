@@ -19,6 +19,11 @@
     100% {font-size: 420%;};
     
 }
+@keyframes bye {
+    0% {opacity: 100%;};  
+    100% {opacity: 0%;};
+    
+}
 
 
 /*DIV: */
@@ -114,6 +119,7 @@
 /*TEXT: */
 
 h1.intro{
+    cursor: grab;
     font-family: 'Nunito', sans-serif;
     font-size: 400%;
     font-weight: normal;
