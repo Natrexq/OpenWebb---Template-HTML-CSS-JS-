@@ -27,11 +27,17 @@ function Load(status){
 }
 function Go(){
 
-    setTimeout(function () {
-        location.href = "/web/webb.html";      
-    }, 500);
+    var element;
+    
+    
 
-  
+
+    const git = document.getElementById(bb);
+
+ 
+    alert(git);
+
+    
 
 
 }
