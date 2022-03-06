@@ -14,7 +14,11 @@
     0% {font-size: 100%;};
     100% {font-size: 110%;};
 }
-
+@keyframes h1intr {
+    0% {font-size: 400%;};
+    100% {font-size: 420%;};
+    
+}
 
 
 /*DIV: */
@@ -115,6 +119,13 @@ h1.intro{
     font-weight: normal;
     color: #FFFFFF;
     text-align: center;
+
+}
+h1.intro:hover{
+    animation-name: h1intr;
+    animation-duration: 500ms;
+    animation-delay: inherit;
+    font-size: 420%;
 
 }
 h3.h3menu{
