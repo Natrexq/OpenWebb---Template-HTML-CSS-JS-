@@ -47,9 +47,10 @@
     }
     #menubox{
         margin-top: 0.2%;
-        width: 25em;
+        width: 30em;
         height: 10%;
         float: right;
+       
         background-color: none;
     }
 
@@ -182,7 +183,8 @@ ul.ul_menu{
 
 }
 li.li_menu{
-    width: 30%;
+    
+    width: 20%;
     height: 100%;
     float: right;
     
@@ -199,7 +201,7 @@ button.btmenu{
     
     border: none;
     border-radius: 15px 15px 15px 15px;
-    width: 100%;
+    width: 90%;
     height: 90%;
     -webkit-border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
