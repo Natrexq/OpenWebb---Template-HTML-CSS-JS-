@@ -157,7 +157,7 @@ h1.intro{
 }
 h1.intro:hover{
     animation-name: h1intr;
-    animation-duration: 500ms;
+    animation-duration: 1000ms;
     animation-delay: inherit;
     font-size: 420%;
 
@@ -198,7 +198,7 @@ button.btmenu{
     font-family: 'Manrope', sans-serif;
     text-align: center;
     font-weight: bold;
-    
+    cursor: grab;
     border: none;
     border-radius: 15px 15px 15px 15px;
     width: 90%;
@@ -317,7 +317,7 @@ h1.abwebh1{
 
     cursor: grab;
     font-family: 'Nunito', sans-serif;
-    font-size: 220%;
+    font-size: 200%;
     text-align: center;
     padding-top: 2%;
     font-weight: bold;
