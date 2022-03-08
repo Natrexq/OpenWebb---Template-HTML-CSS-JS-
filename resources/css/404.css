@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Manrope:wght@500&family=Syne&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, #202020, #273526);
+    height: 21.9em;
+    text-align: center;
+}
+div.box{
+    width: 90%;
+    background-color: none;
+    height: 35em;
+    margin: auto;
+    margin-top: 3em;
+}
+
+h1.EERB{
+    color: #ffffff;
+    padding-top: 3.5em;
+    
+      
+    font-family: 'Manrope', sans-serif;
+
+    font-size: 400%;
+    font-weight: normal;
+    text-align: center;
+}
+h2.EERS{
+    color: #ffffff;
+    
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
