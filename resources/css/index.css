@@ -70,13 +70,24 @@
     div.end_lfbox{
         
         float: left;
-        width: 35%;
-        height: 80%;
+        width: 33%;
+        padding-top: 12%;
+        height: 50%;
         margin-left:1%;
         min-height: 15em;
         min-width: 15em;
         background-color: none;
     }
+    ul.info{
+        background-color: none;
+        margin: auto;
+
+    }   
+    li.info{
+        background-color: none;
+        margin: auto;
+    }
+    
     div.end_botbox{
         float: left;
         width: 100%;
@@ -84,29 +95,31 @@
         background-color: #000000;
     }
     h3.h3endb{
-        float: left;
-        padding-top: 20%;
-        margin-left: 5%;
+        
+        margin-left: 3%;
         font-size: 100%;
-        font-size: 100%;
-        color: rgb(201, 201, 3);
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-    }
-    h3.h3ends{
-        float: left;
-        padding-top: 20%;
-        font-size: 100%;
-        margin-left: 1%;
         color: rgb(255, 255, 0);
         font-family: 'Manrope', sans-serif;
         font-weight: normal;
     }
+    h3.h3ends{
+        
+        font-size: 100%;
+        margin-left: 1%;
+        color: rgb(112, 110, 0);
+       
+        font-family: 'Manrope', sans-serif;
+        font-weight: normal;
+    }
+    b.bend{
+        color: rgb(255, 255, 0);
+      
+    }
     h3.h3endres{
         float: left;
         
-        margin-left: 3%;
-        margin-top: 2%;
+        margin-left: 5%;
+       
         font-size: 100%;
         color: rgb(255, 255, 0);
         font-family: 'Manrope', sans-serif;
@@ -120,7 +133,7 @@
 h1.intro{
     cursor: grab;
     font-family: 'Nunito', sans-serif;
-    font-size: 400%;
+    font-size: 350%;
     font-weight: normal;
     color: #FFFFFF;
     text-align: center;
