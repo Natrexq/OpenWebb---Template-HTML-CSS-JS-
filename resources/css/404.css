@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Manrope:wght@500&family=Syne&display=swap');
 
 
+
+@keyframes load {
+    0% {opacity: 0%;};
+    100% {opacity: 100%;};
+    0% {background-color: red;}
+    100% {background-color: blue;}
+}
+
 body{
     background-image: linear-gradient(to right, #202020, #273526);
     height: 21.9em;
