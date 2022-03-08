@@ -94,6 +94,18 @@
         height: 18%;
         background-color: #000000;
     }
+    div.ab_info{
+        min-width: 18em;
+        width: 60%;
+        border-radius: 60px 20px 60px 20px;
+        height: 70%;
+        margin: auto;
+        background-color: aliceblue;
+        -webkit-border-radius: 60px 20px 60px 20px;
+        -moz-border-radius: 60px 20px 60px 20px;
+        -ms-border-radius: 60px 20px 60px 20px;
+        -o-border-radius: 60px 20px 60px 20px;
+}
     h3.h3endb{
         
         margin-left: 3%;
@@ -207,4 +219,36 @@ hr.hrintro{
     width: 20%;
     color: white;
     min-width: 12em;
+}
+li.ab_libut{
+    
+    min-width: 1em;
+    height: 30%;
+    width: 70%;
+    
+    margin: auto;
+    background-color: #dadada;
+    list-style-type: none;
+}
+ul.ab_ul{
+    width: 25.5%;
+    height: 80%;
+    
+    float: left;
+    background-color: #aa1010;
+
+
+}
+div.ab_dvbut{
+    width: 80%;
+    margin: auto;
+    height: 30%;
+    background-color: #262635;
+
+}
+button.but_ab{
+    width: 30%;
+    margin-left: 2.5%;
+    float: left;
+
 }
