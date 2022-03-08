@@ -252,37 +252,54 @@ div.ab_dvbut{
 }
 button.but_abH{
 
-    background-color: rgb(98, 255, 158);
-
+    background-color: rgb(95, 243, 152);
+    border: none;
+    border-radius:20px 20px 20px 20px;
     width: 30%;
     height: 100%;
     margin-left: 2.5%;
     float: left;
+
+}
+button.but_abH:hover{
+    background-color: rgb(86, 226, 140);
 
 }
 button.but_abC{
-    background-color: rgb(98, 255, 234);
-    
+    background-color: rgb(95, 243, 223);
+    border: none;
+    border-radius:20px 20px 20px 20px;
     width: 30%;
     height: 100%;
     margin-left: 2.5%;
     float: left;
 
 }
+button.but_abC:hover{
+    background-color: rgb(89, 228, 209);
+}
 button.but_abS{
-    background-color: rgb(255, 252, 52);
-   
+    background-color: rgb(241, 238, 48);
     width: 30%;
+    border: none;
+    border-radius:20px 20px 20px 20px;
     height: 100%;
     margin-left: 2.5%;
     float: left;
-
+    -webkit-border-radius:20px 20px 20px 20px;
+    -moz-border-radius:20px 20px 20px 20px;
+    -ms-border-radius:20px 20px 20px 20px;
+    -o-border-radius:20px 20px 20px 20px;
+}
+button.but_abS:hover{
+    background-color: rgb(226, 223, 47);
 }
 h1.ab_h1but{
     
     font-size: 180%;
     font-family: 'Syne', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
+    
     
 }
 h3.abwebh3{
