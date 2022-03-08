@@ -37,3 +37,12 @@ function Go(){
 
 
 }
+function GoAb(){
+
+    location.href = "#ab";
+
+}
+function GoWb(){
+    
+    location.href = "#body";
+}
