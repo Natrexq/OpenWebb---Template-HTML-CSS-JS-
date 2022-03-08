@@ -3,4 +3,6 @@ function Load(){
 
     bd.animationName = "load";
     bd.animationDuration = "3s";
+
+    return Load();
 }
