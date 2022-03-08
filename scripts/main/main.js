@@ -46,3 +46,11 @@ function GoWb(){
     
     location.href = "#body";
 }
+function Author(){
+    window.open("https://github.com/Natrexq");
+}
+function GoPr(){
+    window.open("https://github.com/Natrexq/OpenWebb---Template-HTML-CSS-JS-");
+  
+    
+}
