@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Manrope:wght@500&family=Syne&display=swap');
+
+
+@keyframes load {
+        0% {opacity: 0%;};
+        100% {opacity: 100%;};
+}
+
+
+
+body{
+    background-image: linear-gradient(to right, #020202, #262635);
+    height: 41.9em;
+}
+h1.soon{
+    
+  font-family: 'Syne', sans-serif;
+  font-family: 'Manrope', sans-serif;
+font-family: 'Nunito', sans-serif;
+
+    font-size: 400%;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 4em;
+}
